@@ -1,0 +1,8 @@
+.feature-bg {
+    background-image: url('../../../assets//home/featured.jpg');
+}
+
+.feature-btn.btn-outline:hover {
+    background-color: #fff;
+    color: #000;
+}

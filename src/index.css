@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: #fff;
+    font-family: "Cinzel", serif;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.font-inter {
+    font-family: "Inter", sans-serif;
+}
+
+.font-cinzel {
+    font-family: "Cinzel", serif;
+}
+
+.dark-color {
+    color: #151515;
+}
+
+.dark3-color {
+    color: #737373;
+}
+
+.yellow-color {
+    color: #CD9003;
+}
+
+.main-cover h1 {
+    font-size: 88px;
+}
+
+.main-cover p {
+    font-size: 24px;
+    font-family: "Cinzel", serif;
+    text-transform: uppercase;
+}
+
+.react-tabs__tab {
+    text-transform: uppercase;
+}
+
+.react-tabs__tab-list {
+    text-align: center;
+}
+
+.react-tabs__tab-panel {
+    margin-top: 50px;
+}
+.divider:before, .divider:after {
+    background-color: #fff!important;
+}
