@@ -8,7 +8,7 @@ const useMenu = () => {
     const { data: menu = [], isPending: loading, refetch } = useQuery({
         queryKey: ['menu'],
         queryFn: async () => {
-            const res = await axiosPublic.get('/menu');
+            const res = await axiosPublic.get('https://bistro-boss-restaurant-server-liart.vercel.app/menu');
             return res.data;
         }
     })
